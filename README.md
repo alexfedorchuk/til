@@ -3,7 +3,7 @@ Today I learned
 
 ## Functional Programming
 
-* [What is Functional Programming](/books/composing-software/1-introduction.md#what-is-functional-programming)
+* [What is Functional Programming](/books/composing-software/3-what-is-functional-programming.md)
 
 ## Browser
 
