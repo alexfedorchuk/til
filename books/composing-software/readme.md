@@ -11,6 +11,7 @@ Just small notes on the book divided into relevant topics. You can buy the full 
 * [Monads](./7-monads.md)
 * [The Forgotten History of OOP](./8-forgotten-history-of-oop.md)
 * [Object Composition](./9-object-composition.md)
+* [Factory Functions and Functional Mixins](./10-factory-funtions-&-functional-mixins.md)
 
 ### References
 
