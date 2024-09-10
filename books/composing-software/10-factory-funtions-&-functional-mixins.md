@@ -110,7 +110,6 @@ Most problems can be elegantly solved using pure functions. The same is not true
 
 You can avoid that, though, using the following advice:
 
-
 * **Favor pure functions > factories > functional mixins > classes**
 * Avoid the creation of is-a relationships between objects, mixins, or data types
   Avoid implicit dependencies between mixins – wherever possible, functional mixins should be self-contained, and have no knowledge of other mixins

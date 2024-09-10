@@ -12,6 +12,8 @@ Just small notes on the book divided into relevant topics. You can buy the full 
 * [The Forgotten History of OOP](./8-forgotten-history-of-oop.md)
 * [Object Composition](./9-object-composition.md)
 * [Factory Functions and Functional Mixins](./10-factory-funtions-&-functional-mixins.md)
+* [Why Composition is Harder with Classes](./11-why-composition-is-harder-with-classes.md)
+* [Lenses](./12-lenses.md)
 
 ### References
 
