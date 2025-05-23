@@ -56,8 +56,14 @@ When a user visits a page, the fast static shell is served from the end-user’s
 
 To reduce network overhead, the full response—including static HTML and streamed dynamic parts—is sent in a `single HTTP request`. This avoids extra roundtrips and improves both initial load and overall performance.
 
+> With streaming/suspense, you render the entire page on > request. Suspense lets you fetch data in parallel, and > streaming lets you replace the suspense component with the > fully rendered bits as each of them finish. But everything > is done on request time.
+
+> With PPR, you render part of the page at build time and > part of it at request. Anything that can be rendered at > build time, is rendered at build time. Everything else > should be wrapped in Suspense (with a fallback to prevent > jarring CSS behavior).
+
+* https://github.com/vercel/next.js/discussions/58322 - best explanation of PPR
+
 ## Routing:
-* **Partial rendering** - only the route segments that change on navigation re-render on the client, and any shared segments are preserved (implemented by layout.js)
+* **Partial rendering** - only the route segments that change on navigation re-render on the client, and any shared segments are preserved (implemented by layout.js).
 
 ## Actions
 
