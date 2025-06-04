@@ -46,7 +46,7 @@ They analyzed 180+ teams and identified **5 key dynamics** that consistently app
 This framework is foundational for every engineering team — regardless of stack, company size, or domain.
 
 <figure>
-<img title="Project Aristotle" alt="Project Aristotle" src="./img/project-aristotle.png">
+<img title="Project Aristotle" alt="Project Aristotle" src="./img/project-aristotle.png" width="500px">
 <figurecaption>Figure 1-1. Project Aristotle</figurecaption>
 </figure>
 
@@ -60,7 +60,7 @@ This framework is foundational for every engineering team — regardless of stac
 * Collocation powers innovation
 
 <figure>
-<img title="Team Factors" alt="Team Factors" src="./img/team-factors.png">
+<img title="Team Factors" alt="Team Factors" src="./img/team-factors.png" width="500px">
 <figurecaption>Figure 1-2. Factors that affect teams</figurecaption>
 </figure>
 
