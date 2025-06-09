@@ -21,38 +21,20 @@ This progression is both **individual and organizational**.
 
 ## 1️⃣ Enable
 
-> “You can’t empower someone who’s not yet confident or clear on expectations.”
-
-### 💡 Goals:
-- Build psychological safety
-- Provide context, clarity, and structure
-- Offer mentorship and reduce ambiguity
-
-### 🛠 How:
-- Set clear expectations and success criteria
-- Provide feedback early and often
-- Pair and support engineers through ambiguity
-- Offer learning opportunities without penalty for failure
-
-### 🧠 Mindset:
-- Focus on **capability and confidence building**
-- Treat failures as learning opportunities
-- Safety first → then autonomy
-
----
-
-### Follow Team Effectiveness Models
-
-*Team effectiveness models* are frameworks or theories that provide a systematic approach to understanding and assessing the factors contributing to high-performing teams.
-
-***Leonioni's model*** focuses on the five dysfunctions that can hinder team effectiveness.
-
-<img src="./img/lencioni-model.png" alt="Lencioni model" width="500px" />
+The first thing you must do in your quest for effective engineering is define what effectiveness means for your business domain. You must enable effectiveness.
 
 
-***Tuckman's model***
+### Define Effectiveness for Your Business Type and Team Size
 
-Todo
+Here are some general steps you can follow to define what effectiveness means for your team:
+
+*Identify your team’s goals and objectives*
+
+*Determine what metrics are relevant to measuring success*
+
+*Set targets for each metric*
+
+*Define effectiveness in terms of outcomes*
 
 ## 2️⃣ Empower
 
@@ -76,6 +58,19 @@ Todo
 
 ---
 
+
+### Follow Team Effectiveness Models
+
+*Team effectiveness models* are frameworks or theories that provide a systematic approach to understanding and assessing the factors contributing to high-performing teams.
+
+***Leonioni's model*** focuses on the five dysfunctions that can hinder team effectiveness.
+
+<img src="./img/lencioni-model.png" alt="Lencioni model" width="500px" />
+
+
+***Tuckman's model***
+
+Todo
 
 
 ## 3️⃣ Expand
