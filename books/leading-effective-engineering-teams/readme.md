@@ -7,6 +7,7 @@ Just small notes on the book divided into relevant topics. You can buy the full 
 * [Chapter 3 - The 3 E’s Model of Effective Engineering](./3-tritple-e.md)
 * [Chapter 4 - Effective Management Behaviors: Research from Google](./4-management-behaviors.md)
 * [Chapter 5 - Common Effectiveness Antipatterns](./5-effectiveness-antipatterns.md)
+* [Chapter 6 - Effective Managers](./6-effective-managers.md)
 
 ### References
 
