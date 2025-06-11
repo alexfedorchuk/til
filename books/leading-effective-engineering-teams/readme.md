@@ -8,6 +8,7 @@ Just small notes on the book divided into relevant topics. You can buy the full 
 * [Chapter 4 - Effective Management Behaviors: Research from Google](./4-management-behaviors.md)
 * [Chapter 5 - Common Effectiveness Antipatterns](./5-effectiveness-antipatterns.md)
 * [Chapter 6 - Effective Managers](./6-effective-managers.md)
+* [Chapter 7 - Effective Leaders](./7-effective-leaders.md)
 
 ### References
 
