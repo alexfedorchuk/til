@@ -2,6 +2,52 @@
 
 ## 19
 
+* Meta tags directly in components (`<title>`, `<link>`, and `<meta>`)
+* Support for stylesheets - deeper integration into Concurrent Rendering on the Client and Streaming Rendering on the Server with built in support for stylesheets.
+* Support for async scripts - allowing you to render them anywhere in your component tree
+* Resources loading (preload, preinit, prefetch, preconnect). Can be wrapped in Suspense (react will wait until fully loaded)
+* `ref` as a prop 
+
+### Actions
+
+> First-class pattern for asynchronous data updates in response to user input.
+
+Actions are integrated with features like streaming, selective hydration, Suspense and Transitions.
+
+* Effortlessly composable
+* Unified client and server API
+* Interactive before hydration (both client and server actions)
+* Advanced UX in a few lines of code
+
+### New Hooks
+
+* **useActionState** - allows you to update state based on the result of a form action; accepts a function (the “Action”), and returns a wrapped Action to call.
+
+* React DOM: **useFormStatus** - reads the status of the parent `<form>` as if the form was a Context provider
+
+* **useOptimistic**
+
+
+### New API
+
+* `use` - lets your read the value of a Promise or context
+
+The benefit of using the use API directly in client is that the rest of the server components can already be streamed to the clients without having to be await that data.
+
+Can be called inside condition because it is not a hook.
+
+
+### React Server Components
+
+Server Components are a new option that allows rendering components ahead of time, before bundling, in an environment separate from your client application or SSR server. This separate environment is the “server” in React Server Components. Server Components can run once at build time on your CI server, or they can be run for each request using a web server.
+
+**Server Actions**
+
+Server Actions allow Client Components to call async functions executed on the server.
+
+When a Server Action is defined with the `"use server"` directive, your framework will automatically create a reference to the server function, and pass that reference to the Client Component. When that function is called on the client, React will send a request to the server to execute the function, and return the result.
+
+
 ## 18 (Concurrent rendering)
 
 ### Cocurrent React
