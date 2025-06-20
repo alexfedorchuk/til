@@ -14,10 +14,16 @@
 
 Actions are integrated with features like streaming, selective hydration, Suspense and Transitions.
 
+> The simplicity of a server-side apps, the interactivity of client-side apps, unified by a single, composable programming model.
+
 * Effortlessly composable
 * Unified client and server API
 * Interactive before hydration (both client and server actions)
 * Advanced UX in a few lines of code
+
+In React 19, we’re adding support for using async functions in transitions to handle pending states, errors, forms, and optimistic updates automatically.
+
+By convention, functions that use async transitions are called “Actions”.
 
 ### New Hooks
 
@@ -54,7 +60,7 @@ When a Server Action is defined with the `"use server"` directive, your framewor
 
 * A key property of Concurrent React is that rendering is interruptible
 * Coordinate multiple update at different priorities 
-* React can prepare new screens in the background without blocking the main thread
+* React can prepare new screens in the background without blocking the main thread (multiple buffering)
 
 ### New Feature: Automatic Batching
 
@@ -74,6 +80,8 @@ A transition is a new concept in React to distinguish between urgent and non-urg
 
 * `Urgent updates` reflect direct interaction, like typing, clicking, pressing, and so on.
 * `Transition updates` transition the UI from one view to another.
+
+Instead of update as a single uninterruptible task, react will yield back to the main thread every 5ms to see if there are other tasks waiting to be handled instead.
 
 ```jsx
 import { startTransition } from 'react';
