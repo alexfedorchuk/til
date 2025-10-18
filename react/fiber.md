@@ -12,3 +12,7 @@ In order to do any of this, we first need a way to break work down into units. I
 Fiber is re-implementation of the stack, specialized for React components. You can think of a single fiber as a **virtual stack frame**.
 
 So how does React implement the algorithm to walk the tree without recursion? It uses a singly linked list tree traversal algorithm. It makes it possible to pause the traversal and stop the stack from growing.
+
+References:
+
+* [Fiber Principles](https://github.com/facebook/react/issues/7942)

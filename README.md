@@ -6,7 +6,7 @@ Today I learned
 * [What is Functional Programming](/books/composing-software/3-what-is-functional-programming.md)
 
 ## Typescript
-* [Union, literals and narrowing](./typescript/union-literals-narrowing.md)
+* [Total typescript](./typescript/readme.md)
 
 ## React
 * [What's new in react (by versions)](./react/whats-new.md)

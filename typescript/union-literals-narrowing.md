@@ -31,6 +31,19 @@ type TrueOrFalse = true | false
 ## Narrowing
 
 One way we can narrow down the type of a value is to use the `typeof` operator, combined with an `if` statement.
+Narrowing only applies within the block's scope.
+
+```ts
+const getAlbumYear = (year: string | number | boolean) => {
+  if (typeof year === 'string') {
+    console.log(`The album was released in ${year}.`) // `year` is string
+  } else if (typeof year === 'number') {
+    console.log(`The album was released in ${year}.`) // `year` is number | boolean
+  }
+
+  console.log(year) // `year` is string | number | boolean
+}
+```
 
 TypeScript can use other conditional operators like `&&` and `||`, and will take the truthiness into account for coercing the boolean value. It's also possible to use other operators like `instanceof` and `in` for checking object properties.
 
@@ -50,6 +63,8 @@ They're both wide types, but there's a key difference.
 
 `unknown`, on the other hand, is part of TypeScript's type system. It's wider than every other type, so it can't be assigned to anything.
 
+This means that `unknown` is a safe type, but any is not. `unknown` means "I don't know what this is", while `any` means "I don't care what this is".
+
 ### The Narrowest Type: `never`
 
 If `unknown` is the widest type in TypeScript, never is the narrowest.
@@ -57,6 +72,8 @@ If `unknown` is the widest type in TypeScript, never is the narrowest.
 `never` represents something that will *never* happen. It's the very bottom of the type hierarchy.
 
 You'll rarely use a `never` type annotation yourself. Instead, it'll pop up in error messages and hovers - often when narrowing.
+
+![](./ts-type-system.png)
 
 ## Discriminated Unions
 
