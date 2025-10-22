@@ -73,3 +73,11 @@ We can also grab the `values` using `Obj[keyof Obj]`:
 ```ts
 type AlbumType = (typeof albumTypes)[keyof typeof albumTypes]; // "cd" | "vinyl" | "digital"
 ```
+
+In general, if you're working with a team that's used to `enum`, you should use `enum`. But if I were starting a project today, I would use `as const` instead of enums.
+
+## Deriving Types from Functions
+
+* `Parameters`
+* `ReturnType`
+* `Awaited`
