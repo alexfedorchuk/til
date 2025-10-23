@@ -6,3 +6,4 @@
 * [Objects](./objects.md)
 * [Mutability](./mutability.md)
 * [TS only features](./ts-only-features.md)
+* [Annotations and Assertations](./annotations-and-assertations.md)
